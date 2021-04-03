@@ -12,6 +12,7 @@ class K_Mean_Algorithm:
 		# Clusters
 		self.C_x = np.random.uniform(min_X,max_X, size=(self.k,1))
 		self.C_y = np.random.uniform(min_Y,max_Y, size=(self.k,1))
+		#print()
 
 		for m in range(1,self.epochs):
 			plt.figure()
